@@ -3,19 +3,15 @@
 ## Overview
 This project focuses on learning a probability density function (PDF) from real-world environmental data(using valid NO2 values from given dataset). The learned distribution is then compared with the empirical distribution derived directly from the data.
 
-The objective is to:
-- Learn distribution parameters from data
-- Visually and numerically compare empirical data with the learned model
-
 ## Dataset Description
-- Non-numeric and missing values are removed using coercion and filtering.
+Non-numeric and missing values are removed using coercion and filtering.
 
 Only valid numeric NO₂ samples are used for modeling.
 
 ## Methodology
 ### 1. Data Preprocessing
 - The `no2` column is converted to numeric values.
-- Invalid entries (NaN or non-numeric values) are discarded.
+- Invalid entries are discarded.
 - The remaining samples form the raw input variable `x`.
 
 ### 2. Transformation
@@ -54,11 +50,11 @@ p(z) = c · e^{−λ (z − μ)²}
 ### Result Graph Explanation
 
 The output visualization contains two components:
-1. **Empirical Distribution (Histogram)**
+1. **Empirical Distribution**
 2. **Learned Probability Density Curve**
 ![alt text](image-1.png)
 
-## Key Observations
+## Observations
 - The learned PDF closely follows the empirical distribution
 - Parameters are data-driven
 
