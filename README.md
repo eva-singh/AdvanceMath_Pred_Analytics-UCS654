@@ -1,4 +1,4 @@
-# Probability Density Estimation from NO₂ Data
+# Advance Mathematics(PDF) Assignemnt 2
 
 ## Overview
 This project focuses on learning a probability density function (PDF) from real-world environmental data(using valid NO2 values from given dataset). The learned distribution is then compared with the empirical distribution derived directly from the data.
